@@ -16,9 +16,16 @@
 </script>
 <style>
   html,
-  body {
+  body,
+  #app {
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+  }
+  #app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
   }
   :root {
     font-family: sans-serif;

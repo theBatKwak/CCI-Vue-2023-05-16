@@ -4,12 +4,12 @@
   </p>
 </template>
 <script>
-export default {
-  name: "VIFComponent",
-  data() {
-    return {
-      afficherParagraphe: true,
-    }
-  },
-}
+  export default {
+    name: "VIFComponent",
+    data() {
+      return {
+        afficherParagraphe: true,
+      }
+    },
+  }
 </script>

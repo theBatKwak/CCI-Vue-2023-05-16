@@ -5,6 +5,8 @@ import ProjectsView from "../views/ProjectsView.vue"
 import LegalView from "../views/LegalView.vue"
 import BlogView from "../views/BlogView.vue"
 import ArticleView from "../views/ArticleView.vue"
+import BoutiqueView from "../views/BoutiqueView.vue"
+import ProductView from "../views/ProductView.vue"
 
 const routes = [
   {
@@ -30,6 +32,14 @@ const routes = [
   {
     path: "/article",
     component: ArticleView,
+  },
+  {
+    path: "/boutique",
+    component: BoutiqueView,
+  },
+  {
+    path: "/produit",
+    component: ProductView,
   },
 ]
 
