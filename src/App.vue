@@ -1,6 +1,8 @@
 <template>
   <NavBar />
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
   <AppFooter />
 </template>
 <script>
@@ -20,5 +22,8 @@
   }
   :root {
     font-family: sans-serif;
+  }
+  main {
+    margin-top: 4rem;
   }
 </style>

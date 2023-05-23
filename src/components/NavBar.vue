@@ -15,6 +15,11 @@
           <li>
             <RouterLink @click="showNav = false" to="/page1">Page 1</RouterLink>
           </li>
+          <li>
+            <RouterLink @click="showNav = false" to="/projects"
+              >Mes projets</RouterLink
+            >
+          </li>
         </ul>
       </nav>
     </section>
